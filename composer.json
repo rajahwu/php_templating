@@ -1,0 +1,21 @@
+{
+    "name": "rajahwu/php_templating",
+    "autoload": {
+        "psr-4": {
+            "Rajahwu\\PhpTemplating\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rajahwu",
+            "email": "vmradford@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0",
+        "erusev/parsedown": "^1.7"
+    },
+    "require-dev": {
+        "friendsoftwig/twigcs": "^6.2"
+    }
+}
